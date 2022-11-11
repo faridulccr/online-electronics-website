@@ -1,0 +1,203 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        display: block;
+        padding-top: 12%;
+    }
+    .background {
+        height: 36vh;
+    }
+
+    /*============================
+    Section 1 style
+    ==============================*/
+    .section1 {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .mainmenu-container {
+        display: flex;
+        align-items: center;
+    }
+    .mainmenu {
+        display: block;
+        width: 40%;
+        text-align: right;
+    }
+    .mainmenu span {
+        font-size: 1.8rem;
+        cursor: pointer;
+        display: inline-block;
+        background-color: aquamarine;
+        padding: 5%;
+        border-radius: 5px;
+    }
+    .logo {
+        width: 60%;
+    }
+    .submenu-container {
+        width: 50%;
+        margin-left: 5%;
+        z-index: 90000;
+        position: relative;
+    }
+    .submenu {
+        z-index: 90000;
+    }
+    .special {
+        margin-top: 60vh;
+    }
+    .section1 .para1 {
+        margin: 3% 0;
+        padding: 2%;
+    }
+    .special fieldset {
+        margin-top: 3%;
+    }
+
+    /*==========================
+        Section 2 style
+    ============================*/
+    .section2 {
+        width: 100%;
+        display: block;
+    }
+    .contact {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .txtsrch {
+        margin-left: 2%;
+        width: 40%;
+    }
+    .btnsrch {
+        width: fit-content;
+        padding: 2%;
+        width: 18%;
+    }
+    .call-icon {
+        margin-left: 3%;
+    }
+    .tel-no {
+        font-size: 3.5vw;
+        font-family: fantasy;
+    }
+    .section2 nav {
+        display: none;
+        width: fit-content;
+        padding: 0 2%;
+        position: absolute;
+        top: 18vh;
+        right: 2%;
+        z-index: 999999999;
+    }
+    .menuitem {
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .slider-container {
+        position: absolute;
+        top: 38vh;
+    }
+    .section2 .slider {
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 100%;
+        margin-top: 2vh;
+        z-index: 4;
+    }
+    .slider .slides {
+        width: 300%;
+        left: 0;
+    }
+    .slides .slide {
+        width: 100%;
+    }
+    .slide .img1 {
+        width: 100% !important;
+    }
+    .slide .img2,
+    .slide .img3 {
+        width: 100%;
+    }
+    .constant {
+        width: 40%;
+        left: 58%;
+    }
+    .constant p {
+        color: white;
+    }
+    .content {
+        display: block;
+        margin: 0 2%;
+    }
+    .content .inner-title1 {
+        margin-top: 5%;
+        width: 100%;
+    }
+    .content .inner-title2 {
+        width: 100%;
+        margin-top: 5%;
+        border-left: 1px solid #afafaf;
+    }
+
+    /* Latest Products style */
+    .latest .products {
+        display: block;
+        margin: 4vh 2% 0;
+    }
+    .latest .products fieldset {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        margin-bottom: 5%;
+        padding: 2%;
+        align-items: center;
+    }
+    .latest .products fieldset img {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .products .product-details {
+        width: 50%;
+    }
+    .products .col2 {
+        margin: 0;
+    }
+    .products fieldset h3 {
+        padding: 0;
+        margin-bottom: 1vh;
+    }
+    @media only screen and (max-width: 400px) {
+        .latest .products fieldset {
+            display: block;
+        }
+        .latest .products fieldset img {
+            width: 100%;
+            margin: 0;
+            margin-bottom: 2%;
+        }
+        .products .product-details {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .footer .outer {
+            height: fit-content;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin-bottom: 3%;
+        }
+        .footer .inner {
+            width: 100%;
+            height: 90%;
+            margin-top: 10%;
+        }
+        .footer .inner:nth-of-type(3) {
+            border: none;
+        }
+    }
+}
